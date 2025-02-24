@@ -27,3 +27,4 @@ Edit application.yml file to configure database access.
 
 ## Run
 mvn spring-boot:run
+By default, the application run on `http://localhost:80`
