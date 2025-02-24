@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/onboarding?createDatabaseIfNotExist=true&userSSL=false&useUnicode=true
+    username: root
+    password: tsangy090197
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enable: true
+    baseline-on-migrate: true
